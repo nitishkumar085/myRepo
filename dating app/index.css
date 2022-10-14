@@ -1,0 +1,85 @@
+body{
+    opacity: 0.9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image.jpg);
+   background-position: 100%;
+   background-size: 100%;
+   margin: 50px;
+
+   
+  
+    
+}
+
+.main{
+    
+    background-color: pink;
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0px 7px 10px rgb(196, 37, 63);
+    padding: 10px;
+}
+
+.h1{
+    text-align: center;
+    color: rgb(247, 10, 10);
+    text-decoration: underline;
+    text-shadow: 0px 7px 6px rgb(121, 18, 18);
+}
+
+.h2{
+    color:blue;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.hr1{
+    background-color: red;
+    height: 10px;
+}
+span{
+    vertical-align: super;
+    font-size: xx-small;
+    color: red;
+}
+
+.field{
+    display: block;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.input{
+    width:50%;
+    height: 20px;
+}
+.option{
+    font-weight: bold;
+}
+
+.hr2{
+    background-color: blue;
+    height: 10px;
+    margin-left:-40px ;
+}
+.div1{
+    margin-top: 2px;
+}
+
+.div1 > input{
+    background-color: brown;
+}
+.button{
+    width: 100%;
+    height: 30px;
+    margin-left: -20px;
+    background-color: rgb(128, 128, 240);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: antiquewhite;
+}

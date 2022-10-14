@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Your Love</title>
+    <link rel="stylesheet" href="index.css" />
+ </head>
+<body>
+    <div class="main">
+         <h1 class="h1">Dating &#x2665; Application</h1>
+         <h3 class="h2">Personal Details</h3>
+         <hr class="hr1">
+         <form action="acknowledgePage.html" method="get">
+             <ul>
+                <li>
+                    <label for="name" class="field">Name :<span>*</span></label>
+                    <input type="text" id="name" class="input"placeholder="Enter your Name" required>
+                </li>
+                <li>
+                    <label for="email"class="field">Email :<span>*</span></label>
+                    <input type="email id="email" class="input" placeholder="Enter your Email"required>
+                </li>
+                <li>
+                    <label for="phNum"class="field">Phone Number :<span>*</span></label>
+                    <input type="number" id="phNum" class="input" placeholder="Enter your Phonenumber"required>
+                </li>
+                <li>
+                    <label for="gender" class="field">Gender : <span>pick one of them</span></label>
+
+                    <input type="radio" id="male" name="gender"> 
+                    <label for="male" class="option">Male</label>
+
+                    <input type="radio" id="female" name="gender"> 
+                    <label for="female" class="option">Female</label>
+                </li>
+                <hr class="hr2">
+                <li>
+                    <label for="date" class="field">Outingdate :<span>*</span></label>
+                    <input type="date" id="date" class="input"required>
+                </li>
+                <li>
+                    <h4>check all that apply to you :<span>*</span></h4>
+                    <div>
+                        <input type="checkbox" id="condition1" name="condition1">
+                        <label for="condition1">I have tattoos and/or piercings. </label>
+                    </div>
+                   
+                    <div>
+                        <input type="checkbox" id="condition2" name="condition2">
+                    <label for="condition2">I am older then your daughter. </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="condition3" name="condition3">
+                        <label for="condition3">i own a <input type="text" id="input">.</label>
+                    </div>
+                    <div>
+                        
+                    <input type="checkbox" id="condition4" name="condition4">
+                    <label for="condition4">I work full time. </label>
+                    </div>
+                    <div>
+                        
+                    <input type="checkbox" id="condition5" name="condition5">
+                    <label for="condition5">My parents are rich. </label>
+
+                    </div>
+                    
+                    
+                  
+
+
+                    
+                </li>
+               <hr class="hr2">
+               <li>
+                <label for="qualification" class="field">Highest Qualification :<span>*</span></label>
+                <input type="text" id="qualification" placeholder="Enter your latest qualification" class="input"required> 
+               </li>
+
+               <hr class="hr2">
+               <li>
+               <label for="message" class="field">Dating Reasons:<span>*</span></label>
+                <textarea  id="message" rows="5" cols="50" required></textarea>
+                </li> 
+                
+                <li>
+                    <label for="refernce" class="field">Contact Reference :</label>
+                    <input type="text" id="refernce" class="input"required> 
+                   </li>
+
+                   <li>
+                    <label for="file_upload" class="field"><b>Upload Bank Statement<b> : </label><br>
+                    <input type="file" id="file_upload" name="file_upload"class="Upload">
+                    </li>
+
+
+             <div class="div1">
+                  <input type="submit" value="submit" class="button">
+                  <input type="reset" value="reset" class="button">
+              </div>
+           
+            </ul>
+         </form>
+    </div>
+   
+</body>
+</html>
